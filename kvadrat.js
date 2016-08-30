@@ -1,9 +1,7 @@
 function kvad(a,b,c){
     
     
-    var a = -5;
-    var b = 5;
-    var c = 30;
+    
     var z1 = (-b-Math.sqrt((b*b)-(4*(a*c))))/(2*a);
     var z2 = (-b+Math.sqrt((b*b)-(4*(a*c))))/(2*a)
     return("x1: "+z1+", x2: "+z2);
