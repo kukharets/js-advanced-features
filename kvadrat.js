@@ -4,7 +4,7 @@ function kvad(a,b,c){
     
     var z1 = (-b-Math.sqrt((b*b)-(4*(a*c))))/(2*a);
     var z2 = (-b+Math.sqrt((b*b)-(4*(a*c))))/(2*a)
-    return("x1: "+z1+", x2: "+z2);
+    return("x1= "+z1+", x2= "+z2);
     
 }
 function getz(){
@@ -19,4 +19,4 @@ function getz(){
     return(kvad(a,b,c));
 }
 
-function wr(){document.getElementById("p").innerHTML=("Result: "+getz());}
+function wr(){document.getElementById("p").innerHTML=("Result:  "+getz());}
